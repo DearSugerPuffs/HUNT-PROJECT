@@ -19,11 +19,21 @@
         background: rgba(0, 0, 0, .7) !important;
         text-align: center;
     }
-
-    nav ul li {
-        padding: 13px 0;
+    .mb-2 {
+        margin-bottom: .0rem !important;
+    }
+    .navbar-nav {
+        margin-bottom: -8px !important;
+        
     }
 
+    nav ul li {
+        border-bottom: 1px solid #fec600;
+        padding: 13px 0;
+    }
+    nav ul .nav-link2{
+        border: none;
+    }
     nav ul li a::after {
         display: none;
     }
