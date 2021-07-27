@@ -1,0 +1,401 @@
+@media(min-width:320px) and (max-width:575px) {
+
+    /* =============================================
+                   banner part start
+    ================================================*/
+    nav .img img {
+        width: 110%;
+    }
+
+    nav button {
+        border-color: #fec600 !important;
+    }
+
+    nav button i {
+        color: #fec600;
+    }
+
+    nav ul {
+        background: rgba(0, 0, 0, .7) !important;
+        text-align: center;
+    }
+
+    nav ul li {
+        padding: 13px 0;
+    }
+
+    nav ul li a::after {
+        display: none;
+    }
+
+    #banner-part .prev {
+        display: none !important;
+    }
+
+    #banner-part .next {
+        display: none !important;
+    }
+
+    #banner-part .item {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    #banner-part .item .overlay {
+
+        padding: 115px 0;
+
+    }
+
+    #banner-part .item .overlay p {
+        width: 282px;
+
+    }
+
+    #banner-part .item .overlay h2 {
+        margin-top: 32px;
+    }
+
+    /* =============================================
+                   banner part end
+    ================================================*/
+    /* =============================================
+                   about part start
+    ================================================*/
+    #about-part .title p {
+        width: 263px;
+    }
+
+    #about-part .item .shape {
+        display: none;
+    }
+
+    #about-part .item .dot {
+        display: none;
+    }
+
+    #about-part .item3 .shape {
+        display: none;
+    }
+
+    #about-part .item3 .dot {
+        display: none;
+    }
+
+    #about-part .item3 {
+        text-align: center;
+
+    }
+
+    #about-part .round {
+        width: 294px;
+        height: 294px;
+    }
+
+    #about-part .round .img {
+        width: 254px;
+        height: 254px;
+    }
+
+    #about-part .item4 .shape {
+        display: none;
+    }
+
+    #about-part .item4 .dot {
+        display: none;
+    }
+
+    #about-part .item4 {
+        text-align: center;
+
+    }
+
+    #about-part .item2 .shape {
+        display: none;
+    }
+
+    #about-part .item2 .dot {
+        display: none;
+    }
+
+    #about-part .item {
+        margin: 0px 0;
+
+    }
+
+    #about-part .item2 {
+        margin: 0px 0;
+    }
+
+    /* =============================================
+                   about part end
+    ================================================*/
+    /* =============================================
+                   port part start
+    ================================================*/
+    #portf-part {
+
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    #portf-part .title p {
+        width: 263px;
+    }
+
+    #portf-part .overlay {
+        padding-top: 21px;
+        padding-bottom: 78px;
+    }
+
+    #portf-part .overlay .item .img:hover .img-overlay {
+        transform: scale(1) !important;
+    }
+
+    /* =============================================
+                   port part end
+    ================================================*/
+    /* =============================================
+                   service part start
+    ================================================*/
+    #service-part .item {
+        justify-content: flex-start;
+        flex-direction: column-reverse;
+    }
+
+    #service-part .item .text-left {
+        text-align: center;
+        width: 94%;
+        margin: 8px;
+    }
+
+    #service-part .line {
+        display: none;
+    }
+
+    #service-part .item:nth-child(2n) {
+        flex-direction: column-reverse;
+        /* justify-content: flex-start; */
+    }
+
+    #service-part .item .details {
+        width: 94%;
+        margin: 8px;
+        text-align: center;
+    }
+
+    #service-part .item .text-left p {
+        padding: 32px 26px;
+    }
+
+    #service-part .item .details p {
+        padding: 32px 26px;
+    }
+
+    #service-part .item .details::after {
+        display: none;
+    }
+
+    #service-part .item .text-left::after {
+        display: none;
+    }
+
+    #service-part .item .title {
+        width: 100%;
+        justify-content: center;
+    }
+
+    #service-part .item .img {
+        width: 100%;
+    }
+
+    #service-part .item:nth-child(2n) .title {
+        justify-content: center;
+    }
+
+    #service-part .item .title h2 {
+        margin: 20px;
+    }
+
+    #service-part .item .img .round {
+        margin-top: 10px;
+        margin-bottom: 33px;
+    }
+
+    #service-part .next {
+        bottom: -26px;
+    }
+
+    #service-part .title p {
+
+        width: 263px;
+
+    }
+
+    /* =============================================
+                   service part end
+    ================================================*/
+    /* =============================================
+                   testimonial part start
+    ================================================*/
+    #testi-part {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    #testi-part .overlay .depender .line {
+        display: none;
+    }
+
+    #testi-part .overlay .img .round {
+        width: 80px;
+        height: 80px;
+    }
+
+    #testi-part .overlay .img .round img {
+        margin-left: 0px;
+
+    }
+
+    #testi-part .details-slider {
+        margin-left: 0px;
+        width: auto;
+        margin-top: 108px;
+
+    }
+    #testi-part .details-slider::after {
+        left: 50%;
+        top: -18px;
+        transform: translateX(-50%) rotate(45deg);
+    }
+
+    #testi-part .details-slider .details h3 {
+        padding-top: 36px;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    #testi-part .details-slider .details span {
+        padding-left: 92px;
+
+    }
+
+    #testi-part .details-slider .details h4 {
+        padding-left: 86px;
+    }
+
+    #testi-part .details-slider .details p {
+        padding: 0px 15px;
+        text-align: center;
+    }
+
+    #testi-part .details-slider .details h6 {
+
+        text-align: center;
+        padding-right: 0px;
+
+        padding-top: 25px;
+    }
+
+    #testi-part .details-slider .details .fao {
+        padding-left: 61px;
+    }
+
+    #testi-part .overlay {
+        padding: 90px 0;
+    }
+   
+
+    /* =============================================
+                   testimonial part end
+    ================================================*/
+    /* =============================================
+                   pricing part start
+    ================================================*/
+    #pricing-part .price {
+        margin: 20px 0;
+    }
+
+    /* =============================================
+                   pricing part end
+    ================================================*/
+     /* =============================================
+                   counter part start
+    ================================================*/
+    #counter-part {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    #counter-part .align {
+        transform: rotate(-0deg);
+    }
+    #counter-part .item {
+        margin: 10px;
+    }
+
+
+     /* =============================================
+                   counter part end
+    ================================================*/
+     /* =============================================
+                   member part start
+    ================================================*/
+    #member-part .title p {
+        width: 263px;
+    }
+
+     /* =============================================
+                   member part end
+    ================================================*/
+    /* =============================================
+                   sponsor part start
+    ================================================*/
+    #sponsor-part {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        padding: 76px 0;
+    }
+    #sponsor-part .align {
+        transform: rotate(-0deg);
+    }
+    #sponsor-part .item {
+        padding: 30px 10px;
+    }
+    .slick-slide img {
+        width: 100%;
+    }
+
+          /* =============================================
+                   sponsor part end
+    ================================================*/
+    /* ===========================================
+            footer logo part start
+=================================================*/
+    #footer-logo {
+        margin-top: -155px;
+        padding-top: 198px;
+    }
+    #footer-logo .logo {
+        transform: rotate(0deg);
+    }
+    #footer-logo .logo img {
+        transform: rotate(0deg);
+        height: 49px;
+    }
+    #footer-logo .details {
+        margin-top: 48px;
+        padding: 10px;
+        border-right: none;
+    }
+    #footer-logo .follow-part h2 {
+        margin-bottom: 20px;
+    }
+      /* ===========================================
+            footer logo part end
+=================================================*/
+   /* ===========================================
+            footer part start
+=================================================*/
+footer .about {
+	text-align: center;
+}
+/* ===========================================
+            footer part end
+=================================================*/
+    /* ================================================== */
+}
