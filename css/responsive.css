@@ -273,12 +273,17 @@
     }
 
     #testi-part .details-slider .details span {
-        padding-left: 92px;
+        padding-left: 0px;
+       
 
+    }
+    .slick-list {
+        text-align: center;
     }
 
     #testi-part .details-slider .details h4 {
-        padding-left: 86px;
+        padding-left: 0px;
+        text-align: center;
     }
 
     #testi-part .details-slider .details p {
