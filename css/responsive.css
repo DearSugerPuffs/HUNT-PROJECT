@@ -327,7 +327,9 @@
     #pricing-part .price {
         margin: 20px 0;
     }
-
+    #pricing-part .price .details ul {
+        padding-left: 0;
+    }
     /* =============================================
                    pricing part end
     ================================================*/
