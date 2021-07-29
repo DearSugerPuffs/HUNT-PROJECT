@@ -1,4 +1,13 @@
 
+// preloder part Start....................../////
+
+$(window).preloader({
+  delay: 1000
+});
+
+// preloder part end....................../////
+
+
 // Banner part Start....................../////
 
 
